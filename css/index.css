@@ -1,0 +1,93 @@
+/* Mobile First */
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    background-color: rgb(50, 48, 70);
+    padding: 12px;
+    box-sizing: border-box;
+    margin: 0;
+    z-index: 2;
+}
+
+.logo-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 42px;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.bx {
+    font-size: 36px;
+    color: #fff;
+}
+
+#open-menu-icon {
+    border-radius: 2px;
+}
+
+#close-menu-icon {
+    display: none;
+}
+
+.menu-board {
+    display: none;
+    margin-top: 0;
+    padding: 16px 0px 0px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.btn,
+.menu-link {
+    display: block;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0px 8px 12px;
+    box-sizing: border-box;
+}
+
+.menu-link {
+    text-align: left;
+    text-indent: 20px;
+    color: #fff;
+    padding: 16px 0;
+}
+
+.menu-link:hover {
+    background-color: rgb(43, 41, 61);
+}
+
+.login-btn {
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.login-btn:hover {
+    border: 2px solid rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.register-btn {
+    color: rgb(255, 50, 50);
+    border: 2px solid rgba(255, 50, 50, 0.5);
+}
+
+.register-btn:hover {
+    border: 2px solid rgba(255, 50, 50, 1);
+    background-color: rgba(255, 50, 50, 0.2);
+}
