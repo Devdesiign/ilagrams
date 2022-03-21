@@ -1,6 +1,8 @@
 /* Mobile First */
 body {
     margin: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 header {
@@ -235,6 +237,7 @@ header {
 }
 
 .gallery h2 {
+    text-transform: uppercase;
     letter-spacing: 4px;
     margin-bottom: 48px;
 }
@@ -266,4 +269,47 @@ header {
 .gallery a:hover {
     color: rgb(255, 50, 50);
     background-color: rgb(50, 48, 70);
+}
+
+.join-ilagrams-holder {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../images/hero-img.jpg');
+    height: 320px;
+
+}
+
+.join-ilagrams {
+    margin-bottom: 48px;
+    text-align: center;
+    padding: 36px;
+    color: #fff;
+    z-index: 2px;
+    background-color: rgb(255, 102, 102);
+}
+
+.join-ilagrams a {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 24px;
+    border-radius: 4px;
+    color: rgb(255, 102, 102);
+    background-color: rgb(225, 225, 225);
+    font-size: .9rem;
+    text-align: center;
+    transition: background-color 200ms ease-in-out;
+}
+
+.join-ilagrams a:hover {
+    opacity: 0.8;
+}
+
+footer {
+    margin-top: 0;
+    text-align: center;
+    padding: 32px 16px;
+    bottom: 0%;
+    color: #fff;
+    background-color: rgb(150, 150, 150);
 }
