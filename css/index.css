@@ -106,7 +106,7 @@ header {
 .hero-content {
     color: #fff;
     padding: 24px;
-    margin-top: 25%;
+    margin-top: 20%;
     text-align: center;
 }
 
@@ -312,4 +312,81 @@ footer {
     bottom: 0%;
     color: #fff;
     background-color: rgb(150, 150, 150);
+}
+
+/* Media Queries 1024px and above */
+
+@media screen and (min-width: 1024px) {
+
+    .hero .mobile {
+        display: none;
+    }
+
+    /* .hero .desktop {
+        display: ;
+    } */
+
+    .header {
+        padding: 0px 12px;
+    }
+
+    .logo-menu {
+        padding: 0px 24px;
+    }
+
+    .logo {
+        width: 48px;
+    }
+
+    .desktop-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .d-menu-link {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+        padding: 16px 12px;
+        border-bottom: 2px solid rgb(50, 48, 70);
+    }
+
+    .d-menu-link:hover {
+        background-color: rgb(43, 41, 61);
+        color: rgb(255, 50, 50);
+        border-bottom: 2px solid rgb(255, 50, 50);
+    }
+
+    .active {
+        background-color: rgb(43, 41, 61);
+        color: rgb(255, 50, 50);
+    }
+
+    .desktop-cta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .d-btn {
+        padding: 12px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
