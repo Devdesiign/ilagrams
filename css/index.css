@@ -3,6 +3,7 @@ body {
     margin: 0;
     width: 100%;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -282,7 +283,7 @@ header {
     text-align: center;
     padding: 36px;
     color: #fff;
-    z-index: 2px;
+    z-index: 2;
     background-color: rgb(255, 102, 102);
 }
 
@@ -314,17 +315,23 @@ footer {
     background-color: rgb(150, 150, 150);
 }
 
+.hero .desktop {
+    display: none;
+}
+
+
+
 /* Media Queries 1024px and above */
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 1000px) {
 
     .hero .mobile {
         display: none;
     }
 
-    /* .hero .desktop {
-        display: ;
-    } */
+    .hero .desktop {
+        display: block;
+    }
 
     .header {
         padding: 0px 12px;
@@ -366,9 +373,8 @@ footer {
 
     .desktop-cta {
         display: flex;
-        align-items: center;
         justify-content: center;
-        gap: 24px;
+        align-items: center;
     }
 
     .d-btn {
@@ -376,17 +382,76 @@ footer {
         border-radius: 4px;
         text-decoration: none;
         font-weight: 700;
+        margin-left: 12px;
     }
 
+    .hero .hero-content {
+        margin-top: 10%;
+    }
 
+    .almamata {
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
 
+    .kon {
+        width: 50%;
+    }
 
+    .call-on {
 
+        padding: 0px;
+        padding-left: 16px;
+        text-align: left;
+    }
 
+    .mission {
+        padding-left: 16px;
+        text-align: left;
 
+    }
 
+    .almamata .membership-guide {
+        text-align: left;
+        margin-left: 16px;
+    }
 
+    .almamata-img img {
+        width: 100%;
+        padding: 0px;
+        box-sizing: border-box;
+    }
 
+    .hero-content h2 {
+        font-weight: 900;
+        font-size: 2.5rem;
 
+    }
+
+    .hero-content p {
+        padding: 0px 16rem;
+        font-size: 1.2rem;
+
+    }
+
+    .back-to-top {
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 12px;
+        background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        position: fixed;
+        top: 88vh;
+        left: 92vw;
+        z-index: 2;
+    }
+
+    .back-to-top:hover {
+        background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    }
+
+    #btt {
+        visibility: hidden;
+    }
 
 }
