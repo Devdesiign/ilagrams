@@ -1,0 +1,82 @@
+.hero {
+    background-image: linear-gradient(90deg, #222, #222);
+    height: max-content;
+}
+
+.about-hero-content {
+    padding: 36px;
+    padding-top: 16px;
+    box-sizing: border-box;
+}
+
+.hero-left-content {
+    width: 100%;
+    height: max-content;
+    color: #fff;
+    padding: 36px;
+    box-sizing: border-box;
+
+}
+
+.hero-left-content h2 {
+    margin-bottom: 56px;
+}
+
+.hero-left-content p {
+    margin-bottom: 76px;
+}
+
+.hero-left-content a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 12px 32px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.hero-right-content {
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.hero-right-content img {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+.join-the-ex {
+    text-align: center;
+    width: 100%;
+    padding: 48px;
+    box-sizing: border-box;
+    color: #fff;
+    background-image: linear-gradient(90deg, rgba(0, 0, 255, 0.9), rgba(0, 0, 255, 0.9)), url('../images/hero-img.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.line-one {
+    font-size: 1.6rem;
+}
+
+.line-two {
+    margin-bottom: 48px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.join-our-member {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 16px 24px;
+    border-radius: 4px;
+    color: rgb(255, 102, 102);
+    background-color: rgb(225, 225, 225);
+    font-size: .8rem;
+    transition: background-color 200ms ease-in-out;
+}
