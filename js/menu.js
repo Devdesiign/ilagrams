@@ -11,12 +11,14 @@ function closemenu() {
     document.getElementById("menu-board").style.display = "none";
 }
 
-//back To Top
-
+//Back To Top
 window.onscroll = function backToTop() {
-    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    if (
+        document.body.scrollTop > 150 ||
+        document.documentElement.scrollTop > 150
+    ) {
         document.getElementById("btt").style.visibility = "visible";
     } else {
         document.getElementById("btt").style.visibility = "";
     }
-}
+};
