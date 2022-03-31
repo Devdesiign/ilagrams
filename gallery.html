@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/ilagrams-logo.png" type="image/x-icon">
+    <title>Gallery - IlaGrams</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero" id="top">
+        <header>
+            <div class="logo-menu">
+                <a href="#" class="logo-link">
+                    <img src="images/ilagrams-logo.png" alt="Ilagrams Logo" class="logo">
+                </a>
+                <div class="mobile-nav-icons mobile">
+                    <i class="bx bx-menu-alt-left" id="open-menu-icon" onclick="openmenu()"></i>
+                    <i class="bx bx-x" id="close-menu-icon" onclick="closemenu()"></i>
+                </div>
+                <div class="desktop desktop-nav">
+                    <a href="index.html" class="d-menu-link">Home</a>
+                    <a href="about-us.html" class="d-menu-link">About Us</a>
+                    <a href="#" class="d-menu-link active">Gallery</a>
+                    <a href="events.html" class="d-menu-link">Events</a>
+                    <a href="contact.html" class="d-menu-link">Contact Us</a>
+                </div>
+                <div class="desktop desktop-cta">
+                    <a href="#" class="login-btn d-btn">Login</a>
+                    <a href="#" class="register-btn d-btn">Register</a>
+                </div>
+            </div>
+            <div class="menu-board mobile" id="menu-board">
+                <a href="#" class="login-btn btn">Login</a>
+                <a href="#" class="register-btn btn">Register</a>
+                <a href="index.html" class="menu-link">Home</a>
+                <a href="about-us.html" class="menu-link">About Us</a>
+                <a href="#" class="menu-link active">Gallery</a>
+                <a href="events.html" class="menu-link">Events</a>
+                <a href="contact.html" class="menu-link">Contact Us</a>
+            </div>
+        </header>
+    </div>
+    <a href="#top" class="back-to-top bx bx-chevron-up" id="btt" onscroll="backToTop()"></a>
+
+    <div class="gallery-holder">
+        <div class="image-holder">
+            <img src="images/male-1.jpg" alt="Male 1">
+            <img src="images/male-2.jpg" alt="Male 2">
+            <img src="images/female-1.jpg" alt="Female 1">
+            <img src="images/male-3.jpg" alt="Male 3">
+            <img src="images/male-4.jpg" alt="Male 4">
+            <img src="images/female-2.jpg" alt="Female 2">
+
+            <!-- <img src="images/male-1.jpg" alt="Male 1">
+            <img src="images/male-2.jpg" alt="Male 2">
+            <img src="images/female-1.jpg" alt="Female 1">
+            <img src="images/male-3.jpg" alt="Male 3">
+            <img src="images/male-4.jpg" alt="Male 4">
+            <img src="images/female-2.jpg" alt="Female 2">
+
+            <img src="images/male-1.jpg" alt="Male 1">
+            <img src="images/male-2.jpg" alt="Male 2">
+            <img src="images/female-1.jpg" alt="Female 1">
+            <img src="images/male-3.jpg" alt="Male 3">
+            <img src="images/male-4.jpg" alt="Male 4">
+            <img src="images/female-2.jpg" alt="Female 2">
+
+            <img src="images/male-1.jpg" alt="Male 1">
+            <img src="images/male-2.jpg" alt="Male 2">
+            <img src="images/female-1.jpg" alt="Female 1">
+            <img src="images/male-3.jpg" alt="Male 3">
+            <img src="images/male-4.jpg" alt="Male 4">
+            <img src="images/female-2.jpg" alt="Female 2">
+
+            <img src="images/male-1.jpg" alt="Male 1">
+            <img src="images/female-1.jpg" alt="Female 1"> -->
+            
+        </div>
+        <a href="#" class="load-more">Load More</a>
+    </div>
+    <div class="join-ilagrams-holder">
+        <div class="join-ilagrams">
+            <h2>Join the IlaGrams</h2>
+            <a href="#" class="btn">Register now for free</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2022 by Ilamoye Grammar School Old Students Association. <br>DevDesiign - All rights reserved.</p>
+    </footer>
+
+    <script src="js/menu.js">
+    </script>
+</body>
+
+</html>
